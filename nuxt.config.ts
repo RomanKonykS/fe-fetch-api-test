@@ -8,4 +8,7 @@ export default defineNuxtConfig({
 
 	modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt"],
 	compatibilityDate: "2025-01-22",
+	router: {
+		base: "/fe-fetch-api-test/",
+	},
 });
